@@ -1,0 +1,29 @@
+import AllProductsSection from '../AllProductsSection'
+
+import Header from '../Header'
+
+import './index.css'
+
+const Products = () => (
+  <>
+    <Header />
+    <div className="product-sections">
+      <AllProductsSection />
+    </div>
+  </>
+)
+
+export default Products
+
+
+
+
+
+
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
